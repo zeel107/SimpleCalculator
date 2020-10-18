@@ -57,7 +57,7 @@ class Calculator:
         if (len(str) == 0):
             return 0
         if (len(str) == 1):
-            return int(str)
+            return float(str)
 
         order = -1
         operator = ''
@@ -92,7 +92,7 @@ class Calculator:
                 # remove the ()
                 return self.__compute(self.__remove_paren(str))
             else:
-                return int(str)
+                return float(str)
 
         if (operator == 'c'):
             if (str[index + 2] == 's'):
@@ -134,9 +134,3 @@ class Calculator:
         if (operator == 'log'):
             return math.log(self.__compute(split[1]), 10)
 
-
-c = Calculator()
-
-print(c.calculate("sin(4*(4^ln(7)))"))
-print(c.calculate("(2^(2^(2^2)))^2"))
-print(c.calculate("(5+3)*2"))
