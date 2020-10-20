@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a8eacf8-8cef-4ae4-873b-4dee0374ed57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_calculator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_calculator/test_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_calculator/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_calculator/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_calculator/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_calculator/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_calculator/test_calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +87,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_calculator.calctest.test_unformatted_input" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple_calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.calctest.test_unformatted_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_calculator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple_calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/simple_calculator/test_calculator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_calculator" />
+        <item itemvalue="Python tests.Unittests in test_calculator.py" />
         <item itemvalue="Python.calculator" />
+        <item itemvalue="Python tests.Unittests for test_calculator.calctest.test_unformatted_input" />
       </list>
     </recent_temporary>
   </component>
@@ -114,37 +138,56 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1603048803040">
+    <state x="963" y="285" key="#xdebugger.evaluate" timestamp="1603129093577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603048803040" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1603048803040">
+    <state x="963" y="285" key="#xdebugger.evaluate/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603129093577" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1603154159307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603048803040" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1603048803040">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603154159307" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1603154159307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603048803040" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1603048803040">
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603154159307" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1603154159307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603048803040" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603046852410">
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603154159307" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1603154159307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603046852410" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603046852410">
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603154159307" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603153962253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603046852410" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603046852410">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603153962253" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603153962253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603046852410" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603046852410">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603153962253" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603153962253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603046852410" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603153962253" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603153962253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603153962253" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1603123486785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.573.1536.824@0.0.1920.1040" timestamp="1603123486785" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple_calculator/test_calculator.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

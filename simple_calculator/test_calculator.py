@@ -30,24 +30,34 @@ class calctest(unittest.TestCase):
     def test_exponent(self):
         c = Calculator()
         self.assertEqual(c.calculate("2^3"), 8)
-        self.assertEqual(c.calculate("2^(1/2)"), math.sqrt(2))
+        self.assertEqual(c.calculate("2^(1/2)"), round(math.sqrt(2), 11))
 
     def test_urinary(self):
         c = Calculator()
         self.assertEqual(c.calculate("sin(0)"), 0)
         self.assertEqual(c.calculate("cos(0)"), 1)
         self.assertEqual(c.calculate("tan(0)"), 0)
-        self.assertEqual(c.calculate("cot(0)"), 0)
+        self.assertEqual(c.calculate("cot(90)"), 0)
         self.assertEqual(c.calculate("log(100)"), 2)
         self.assertEqual(c.calculate("ln(1)"), 0)
 
     def test_undefined(self):
         c = Calculator()
         self.assertEqual(c.calculate("1/0"), "undefined")
+        self.assertEqual(c.calculate("cot(0)"), "undefined")
 
     def test_unformatted_input(self):
         c = Calculator()
-        self.assertEqual(c.calculate())
+        self.assertEqual(c.calculate("-1  -log(10)^    -2"), -2)
+        self.assertEqual(c.calculate("-  +  1"), -1)
+        self.assertEqual(c.calculate("-2^-2+2"), 1.75)
+        self.assertEqual(c.calculate("-5(2+1)"), -15)
+
+    def test_round(self):
+        c = Calculator(3)
+        self.assertEqual(c.calculate("1/3"), 0.333)
+        self.assertEqual(c.calculate("2/3"), 0.667)
+
 
 
 if __name__ == '__main__':
