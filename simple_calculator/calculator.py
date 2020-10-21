@@ -53,9 +53,7 @@ class Calculator:
                 # find where the matching ) is going to go
                 operator_index = -1
                 for i in range(len(arr[1])):
-                    try:
-                        int(arr[1][i])
-                    except:     # arr[1][i] is an operation
+                    if(not arr[1][i].isdigit()):
                         operator_index = i
                         break
 
@@ -65,6 +63,7 @@ class Calculator:
                 else:                           # split arr[1] on the first operator
                     temp = arr[1].split(arr[1][operator_index], 1)
                     arr[0] = arr[0] + "(-" + temp[0] + ")" + arr[1][operator_index] + temp[1]
+                    del arr[1]
             else:
                 arr[0] = arr[0] + "-" + arr[1]
                 del arr[1]
